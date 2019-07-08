@@ -21,3 +21,7 @@ steps:
       Write-Host "Hello World"
       
       # Use the environment variables input below to pass secret variables to this script.'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'https://github.com/linnzterawe/testinci.git'
