@@ -21,11 +21,3 @@ steps:
       Write-Host "Hello World"
       
       # Use the environment variables input below to pass secret variables to this script.'
-
-- task: JenkinsQueueJob@2
-  inputs:
-    serverEndpoint: 'jen2'
-    jobName: 'testjen'
-    captureConsole: true
-    capturePipeline: true
-    isParameterizedJob: false
